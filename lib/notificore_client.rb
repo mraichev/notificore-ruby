@@ -7,7 +7,7 @@ require_relative 'response/im-viber'
 require_relative 'response/balance'
 
 module Notificore
-  ENDPOINT = 'http://api.notificore.com'
+  ENDPOINT = 'https://api.notificore.ru/v1.0/'
 
   class Client
       attr_reader :access_key
